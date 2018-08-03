@@ -1,0 +1,35 @@
+{
+    "name": "roygoldman/drupal-project-installers",
+    "description": "Drupal component installation path configuration for projects",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Rutgers OIT-ESD",
+            "email": "webmaster@oit.rutgers.edu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://packages.oit-dev.rutgers.edu/php"
+      }
+    ],
+    "require": {
+        "roygoldman/composer-installers-discovery": "dev-debug",
+        "composer/installers": "^1.2",
+    },
+    "extra": {
+        "installer-paths": {
+            "web/core": ["type:drupal-core"],
+            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/modules/custom/{$name}": ["type:drupal-custom-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/profiles/custom/{$name}": ["type:drupal-custom-profile"],
+            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "web/themes/custom/{$name}": ["type:drupal-custom-theme"],
+            "drush/contrib/{$name}": ["type:drupal-drush"]
+        }
+    }
+}
