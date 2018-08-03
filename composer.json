@@ -16,8 +16,8 @@
       }
     ],
     "require": {
-        "roygoldman/composer-installers-discovery": "dev-debug",
-        "composer/installers": "^1.2"
+        "composer/installers": "^1.2",
+        "roygoldman/composer-installers-discovery": "dev-debug"
     },
     "extra": {
         "installer-paths": {
