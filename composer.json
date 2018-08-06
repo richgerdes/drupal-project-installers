@@ -1,7 +1,7 @@
 {
     "name": "roygoldman/drupal-project-installers",
     "description": "Drupal component installation path configuration for projects",
-    "type": "library",
+    "type": "metapackage",
     "authors": [
         {
             "name": "Rutgers OIT-ESD",
