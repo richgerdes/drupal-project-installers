@@ -2,6 +2,7 @@
     "name": "roygoldman/drupal-project-installers",
     "description": "Drupal component installation path configuration for projects",
     "type": "metapackage",
+    "license": "GPL-2.0-or-later",
     "authors": [
         {
             "name": "Rutgers OIT-ESD",
