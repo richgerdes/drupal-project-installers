@@ -10,12 +10,6 @@
         }
     ],
     "minimum-stability": "dev",
-    "repositories": [
-      {
-        "type": "composer",
-        "url": "https://packages.oit-dev.rutgers.edu/php"
-      }
-    ],
     "require": {
         "composer/installers": "^1.2",
         "roygoldman/composer-installers-discovery": "1.0.2"
