@@ -5,8 +5,8 @@
     "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "Rutgers OIT-ESD",
-            "email": "webmaster@oit.rutgers.edu"
+            "name": "Rich Gerdes",
+            "email": "rich@richgerdes.com"
         }
     ],
     "minimum-stability": "dev",
