@@ -16,15 +16,15 @@
     },
     "extra": {
         "installer-paths": {
-            "web/core": ["type:drupal-core"],
+            "web": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library"],
-            "web/modules/contrib/{$name}": ["type:drupal-module"],
-            "web/modules/custom/{$name}": ["type:drupal-custom-module"],
+            "web/sites/all/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/sites/all/modules/custom/{$name}": ["type:drupal-custom-module"],
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/profiles/custom/{$name}": ["type:drupal-custom-profile"],
-            "web/themes/contrib/{$name}": ["type:drupal-theme"],
-            "web/themes/custom/{$name}": ["type:drupal-custom-theme"],
-            "drush/contrib/{$name}": ["type:drupal-drush"]
+            "web/sites/all/themes/contrib/{$name}": ["type:drupal-theme"],
+            "web/sites/all/themes/custom/{$name}": ["type:drupal-custom-theme"],
+            "web/sites/all/drush/{$name}": ["type:drupal-drush"]
         }
     }
 }
