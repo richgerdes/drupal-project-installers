@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "require": {
         "composer/installers": "^1.2",
-        "roygoldman/composer-installers-discovery": "1.0.2"
+        "roygoldman/composer-installers-discovery": "^1.0.3"
     },
     "extra": {
         "installer-paths": {
