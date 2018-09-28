@@ -17,7 +17,7 @@
     "extra": {
         "installer-paths": {
             "web": ["type:drupal-core"],
-            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/sites/all/libraries/{$name}": ["type:drupal-library"],
             "web/sites/all/modules/contrib/{$name}": ["type:drupal-module"],
             "web/sites/all/modules/custom/{$name}": ["type:drupal-custom-module"],
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
