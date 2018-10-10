@@ -22,8 +22,7 @@
             "web/sites/all/modules/custom/{$name}": ["type:drupal-custom-module"],
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/profiles/custom/{$name}": ["type:drupal-custom-profile"],
-            "web/sites/all/themes/contrib/{$name}": ["type:drupal-theme"],
-            "web/sites/all/themes/custom/{$name}": ["type:drupal-custom-theme"],
+            "web/sites/all/themes/{$name}": ["type:drupal-theme", "type:drupal-custom-theme"],
             "web/sites/all/drush/{$name}": ["type:drupal-drush"]
         }
     }
