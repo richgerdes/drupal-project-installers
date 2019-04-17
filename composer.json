@@ -19,7 +19,7 @@
         "psr-4": {"RoyGoldman\\DrupalProjectInstallers\\": "src/"}
     },
     "extra": {
-        "class": "RoyGoldman\\DrupalProjectInstallers\\Plugin"
+        "class": "RoyGoldman\\DrupalProjectInstallers\\Plugin",
         "installer-paths": {
             "web": ["type:drupal-core"],
             "web/sites/all/libraries/{$name}": ["type:drupal-library"],
