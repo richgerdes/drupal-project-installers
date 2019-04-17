@@ -1,7 +1,7 @@
 {
     "name": "roygoldman/drupal-project-installers",
     "description": "Drupal component installation path configuration for projects",
-    "type": "metapackage",
+    "type": "composer-plugin",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
@@ -11,10 +11,15 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "composer-plugin-api": "^1.1",
         "composer/installers": "^1.2",
         "roygoldman/composer-installers-discovery": "^1.0.3"
     },
+    "autoload": {
+        "psr-4": {"RoyGoldman\\DrupalProjectInstallers\\": "src/"}
+    },
     "extra": {
+        "class": "RoyGoldman\\DrupalProjectInstallers\\Plugin"
         "installer-paths": {
             "web": ["type:drupal-core"],
             "web/sites/all/libraries/{$name}": ["type:drupal-library"],
