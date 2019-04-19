@@ -2,10 +2,8 @@
 
 namespace RoyGoldman\DrupalProjectInstallers;
 
-use Composer\Installer\LibraryInstaller;
 use Composer\Package\PackageInterface;
-use Composer\Package\Package;
-use Composer\Repository\RepositoryManager;
+use Composer\Repository\InstalledRepositoryInterface;
 use RoyGoldman\ComposerInstallersDiscovery\Installer as DiscoveryInstaller;
 
 /**
