@@ -6,7 +6,7 @@ use Composer\Installer\LibraryInstaller;
 use Composer\Package\PackageInterface;
 use Composer\Package\Package;
 use Composer\Repository\RepositoryManager;
-use RoyGoldman\ComposerInstallersDiscovery\DiscoveryInstaller;
+use RoyGoldman\ComposerInstallersDiscovery\Installer as DiscoveryInstaller;
 
 /**
  * Implement custom installer to search dependencies for installer locations.
