@@ -24,9 +24,9 @@ class Installer extends DiscoveryInstaller {
      */
     public function isInstalled(InstalledRepositoryInterface $repo, PackageInterface $package)
     {
-        $parent == parent::isInstalled($repo, $package);
-        if (!$parent) {
-          return $parent;
+        $installed = parent::isInstalled($repo, $package);
+        if (!$installed) {
+          return $installed;
         }
         else {
           // If directory exists, check for existance of drupal's index.php.
