@@ -16,6 +16,9 @@ class Installer extends DiscoveryInstaller {
    */
   public function supports($packageType)
   {
+    // Call parent to trigger package discovery.
+    parent::supports($packageType);
+
     return $packageType === 'drupal-core';
   }
 
@@ -24,7 +27,6 @@ class Installer extends DiscoveryInstaller {
    */
   public function isInstalled(InstalledRepositoryInterface $repo, PackageInterface $package)
   {
-
     $installed = parent::isInstalled($repo, $package);
     if (!$installed) {
       return $installed;
